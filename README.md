@@ -1,6 +1,8 @@
 # did-miner
 
-Change the string you want to mine and run it with `cargo run --release`.
+Change the string (`let contains = "1ota";`) to whatever you want to mine and run it with `cargo run --release`.
+
+Mining for strings longer than 4 characters can quickly take a long time.
 
 let position = Position::Start; looks like:
 
