@@ -1,0 +1,11 @@
+[package]
+name = "identity-miner"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hex = "0.4"
+bs58 = "0.4"
+iota-crypto = { version = "0.7.0", features = ["std", "blake2b", "ed25519", "random"]}
